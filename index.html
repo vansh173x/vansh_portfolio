@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS| CodingNepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Move to up button -->
+    <div class="scroll-button">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    <!-- navgaition menu -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a style="text-decoration: none;" href="#">Portfolio</a></div>
+        <ul class="menu">
+          <li><a style="text-decoration: none;" href="#home">Home</a></li>
+          <li><a style="text-decoration: none;" href="#about">About</a></li>
+          <li><a style="text-decoration: none;" href="#skills">Skills</a></li>
+          <li><a style="text-decoration: none;" href="#projects">Projects</a></li>
+          <li><a style="text-decoration: none;" href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Vansh Malik</div>
+          <div class="text-three">MCA Student</div>
+          <div class="text-four">at Galgotias University    </div>
+        </div>
+        <div>
+            <img src="" alt="" srcset="">
+        </div>
+      </div>
+    </section>
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <img src="./img/Screenshot 2025-02-01 134900.png" alt="" />
+          </div>
+          <div class="right">
+            <div class="topic">About </div>
+            <p>
+                My name is Vansh Malik, and I am currently pursuing my Master's degree in Computer Applications (MCA) at Galgotias University. I hold a Bachelor's degree in Bachelor of Science (B.Sc) from Yoginath Degree College affiliated to Chaudhary Charan Singh University Meerut, where I graduated with distinction. Throughout my academic journey, I have developed a strong proficiency in various programming languages, including Python, and C, as well as expertise in database management systems and software development methodologies.
+            </p>
+            <div class="button">
+              <button><a style="text-decoration: none; color: white;" href="./img/vansh_CV.pdf">Download CV</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>
+              I possess a diverse skill set that makes me a versatile and capable professional. My technical expertise spans programming languages such as Python and C, where I can excel in both application and system-level programming. My proficiency in web development is showcased through my strong command of HTML, CSS, and JavaScript, allowing me to create visually appealing and functional websites like this portfolio. Furthermore, my knowledge in Database Management Systems (DBMS) enables me to efficiently handle and manage data, ensuring smooth and effective data operations. Overall, my well-rounded skills make you an invaluable asset in the tech industry. 💻✨</p>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+            </div>
+            <div class="box">
+              <div class="topic">Python</div>
+            </div>
+            <div class="box">
+                <div class="topic">C Programming Basic</div>
+              </div>
+              <div class="box">
+                <div class="topic">Database Management System</div>
+              </div>
+              <div class="box">
+                <div class="topic">Analytical & Problem Solving Skills</div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Services Section Start -->
+    <section class="projects" id="projects">
+      <div class="content">
+        <div class="title"><span>My Projects</span></div>
+
+        <div class="boxes">
+          <div class="card box" style="width: 18rem;">
+            <img src="./img/sfms.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">Student Fees Management System</h5>
+              <p class="card-text">The Student Fees Management Project in Python is designed to streamline the tracking and management of student payments and fees</p>
+              <a href="https://github.com/vansh173x/student_fees_management" class="btn btn-secondary">View Project</a>
+            </div>
+          </div>
+
+
+            <div class="card box" style="width: 18rem;">
+              <img src="./img/medi.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Medicine Finder</h5>
+                <p class="card-text">The Medicine Finder Project combines Python with HTML and CSS to create a web application that helps users locate medications based on various criteria. Python handles the backend logic for searching a database of medicines, while HTML and CSS provide a clean and intuitive user interface..</p>
+                <a href="https://github.com/vansh173x/medicine_finder" class="btn btn-secondary">View Project</a>
+              </div>
+            </div>
+
+
+            <div class="card box" style="width: 18rem;">
+              <img src="./img/portfolio.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">Portfolio</h5>
+                <p class="card-text">Portfolio showcases my skills  and projects in a professional and visually appealing way. It highlights my expertise, creativity, and accomplishments, making it an essential tool for personal branding and career growth.</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic""></div>
+          <p><img  src="./img/mail.png" alt="" style="height: 25px; text-align: left;"><span>    </span>vanshmalik2004@gmail.com</p>
+          <p><img src="./img/phone.png" alt="" style="height: 25px;text-align: right;"><span>   </span>9694838423, 9520508423</p>
+          <p><img src="./img/linkedin.png" alt="" style="height: 25px;text-align: right;"><span>   </span>www.linkedin.com/in/vansh-malik-543645287</p>
+          <p><img src="./img/github.png" alt="" style="height: 25px;text-align: right;"><span>   </span>https://github.com/vansh173x</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span></span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
